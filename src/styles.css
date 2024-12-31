@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.word-connect-challenge {
+  display: grid;
+  width: 25%;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Optional: Adds spacing between grid items */
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
